@@ -13,7 +13,7 @@ steps:
     args:
       - 'compute'
       - 'ssh'
-      - 'vm-1'  # Replace with the name of your Compute Engine VM instance
+      - 'vm1'  # Replace with the name of your Compute Engine VM instance
       - '--zone=asia-southeast2-a'  # Replace with the zone of your Compute Engine VM instance
       - '--command=cd /var/www/html/contact && git pull origin main'
     dir: '/var/www/html/contact'  # Specify the directory where your source code is cloned
